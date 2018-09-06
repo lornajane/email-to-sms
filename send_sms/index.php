@@ -13,7 +13,7 @@ function main($params) {
 
 	$response = $client->message()->send([
 		'to' => $params['tonumber'],
-		'from' => 'Email relay service',
+		'from' => 'Email relay',
 		'text' => $body_data
 	]);
     echo "Message sent: $body_data\n";
